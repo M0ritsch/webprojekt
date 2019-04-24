@@ -1,20 +1,14 @@
 
 div {
+  background-color: lightblue;
 
-}
-
-
-h3 {
-color: blue;
 }
 
 
 .container {
-  width: 900px;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -26,9 +20,12 @@ color: blue;
 
 
 .element{
-background-color: lightgrey;
+background-color: lightgreen;
 margin: 20px;
 padding: 10px;
+border: 6px ridge black;
+height: 433px;
+
 
 
 }
@@ -36,4 +33,16 @@ padding: 10px;
 .video{
 display: none;
 
+}
+
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
